@@ -126,16 +126,18 @@ details summary::-webkit-details-marker{display:none}
 .cur-note{margin-top:34px;padding:18px 24px;background:var(--bg);border-inline-start:4px solid var(--mint);border-radius:0 14px 14px 0;display:inline-block}
 
 /* ---------- 05 למי מתאים ---------- */
-.fit-sec{padding:100px 0}
+.fit-sec{padding:100px 0;background:var(--navy);color:#fff}
 .fit-head{max-width:760px;margin-bottom:40px}
+.fit-head .eyebrow{color:var(--mint)}
+.fit-head .sec-title{color:#fff}
 .fit-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:22px;align-items:start}
-.fit-yes{background:#fff;border-radius:28px;padding:clamp(26px,4vw,48px);box-shadow:0 30px 60px -48px rgba(27,47,56,.5)}
+.fit-yes{background:#fff;color:var(--ink);border-radius:28px;padding:clamp(26px,4vw,48px);box-shadow:0 34px 60px -36px rgba(0,0,0,.45)}
 .fit-yes h3{font-size:22px;font-weight:800;color:var(--navy)}
 .fit-yes ul{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:14px}
 .fit-yes li{display:flex;gap:14px;font-size:18px}
 .fit-yes li::before{content:"✓";flex:none;width:30px;height:30px;border-radius:50%;background:var(--mint-soft);color:var(--mint-dot);display:grid;place-items:center;font-weight:800;font-size:15px;margin-top:1px}
-.fit-no{border:1px solid var(--line);border-radius:28px;padding:clamp(24px,3vw,36px);color:var(--text);font-size:17px}
-.fit-no h3{font-size:19px;font-weight:600;color:var(--ink);margin-bottom:10px}
+.fit-no{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.28);border-radius:28px;padding:clamp(24px,3vw,36px);color:rgba(255,255,255,.88);font-size:17px}
+.fit-no h3{font-size:19px;font-weight:600;color:#fff;margin-bottom:10px}
 .fit-no p+p{margin-top:10px}
 
 /* ---------- 06 קצת עליי ---------- */
